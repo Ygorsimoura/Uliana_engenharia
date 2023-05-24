@@ -1,4 +1,8 @@
 .about {
+  position: relative;
+}
+
+.about-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 150px;
@@ -20,4 +24,39 @@
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0.06em;
+}
+
+.infos {
+  position: absolute;
+  background-color: white;
+  width: 1150px;
+  height: 270px;
+  padding: 35px 60px;
+  top: 420px;
+  right: 250px;
+}
+
+.infos-list {
+  display: flex;
+  gap: 100px;
+}
+
+.infos-list h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #e09d00;
+}
+
+.infos-list p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  padding-top: 15px;
 }

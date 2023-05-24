@@ -1,3 +1,7 @@
+body {
+  height: 2000px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0px;
