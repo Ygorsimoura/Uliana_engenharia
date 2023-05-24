@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  margin-right: 130px;
+  margin-left: 130px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
