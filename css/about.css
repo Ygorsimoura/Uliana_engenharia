@@ -1,0 +1,23 @@
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 150px;
+  margin-top: 200px;
+}
+
+.description-about h2 {
+  font-family: "Montserrat", monospace;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 65px;
+  color: #3d3d45;
+  padding-bottom: 50px;
+}
+
+.description-about p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.06em;
+}
