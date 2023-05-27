@@ -1,12 +1,12 @@
 .about {
   position: relative;
+  margin-top: 200px;
 }
 
 .about-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 150px;
-  margin-top: 200px;
 }
 
 .description-about h2 {

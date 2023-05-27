@@ -1,0 +1,13 @@
+.service {
+  margin-top: 200px;
+}
+
+.service h2 {
+  font-family: "Montserrat", monospace;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 74px;
+  color: #3d3d45;
+  padding-bottom: 50px;
+  text-align: center;
+}
