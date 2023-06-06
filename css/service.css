@@ -15,8 +15,13 @@
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 50px;
+  gap: 65px;
   margin-bottom: 70px;
+ 
+}
+
+.servicos1{
+  margin-bottom: 57px;
 }
 
 .cards-servicos {
@@ -42,19 +47,18 @@
 }
 
 .cta-service {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  align-items: center;
-  gap: 65px;
+  grid-column: 1 ;
   font-family: "Open Sans", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
 }
 
 .cta-service a {
+  display: block;
   font-size: 23px;
   font-weight: 600;
   text-align: center;
+  margin-top: 57px;
   padding: 15px 35px;
   border-radius: 4px;
   color: #fff;
