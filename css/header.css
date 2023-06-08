@@ -1,6 +1,21 @@
-.logo {
+.logo-desktop {
   display: block;
   width: 476px;
   height: 156px;
   padding-top: 35px;
+}
+.logo-mobile {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .logo-desktop {
+    display: none;
+  }
+
+  .logo-mobile {
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
 }
