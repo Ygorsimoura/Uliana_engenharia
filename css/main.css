@@ -36,8 +36,6 @@
   font-weight: 700;
   font-size: 20px;
   text-align: center;
-  width: 280px;
-  height: 60px;
   padding: 20px 40px;
   border-radius: 4px;
   color: #ffffff;
@@ -50,4 +48,41 @@
 }
 
 @media (max-width: 576px) {
+  .main-content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .main-imgs {
+    grid-row: 1;
+    justify-self: center;
+    padding-bottom: 50px;
+  }
+  .main-imgs img {
+    width: 350px;
+    box-shadow: 40px -40px #3d3d45;
+  }
+  .main-texts {
+    padding: 0px;
+  }
+  .main-texts h1 {
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    padding-bottom: 25px;
+  }
+  .main-texts p {
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 25px;
+  }
+
+  .main-texts a {
+    font-size: 16px;
+    padding: 15px 30px;
+  }
+
+  .btn-main {
+    display: grid;
+    justify-content: center;
+  }
 }
