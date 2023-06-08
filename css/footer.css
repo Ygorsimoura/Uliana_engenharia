@@ -4,6 +4,7 @@ footer{
     padding: 80px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 130px;
 
 }
 
@@ -21,14 +22,17 @@ footer h2{
     font-weight: 800;
     line-height: 22px;
     color: white;
+
+    margin-bottom: 30px;
 }
 
 footer a{
     font-family: "Montserrat", monospace;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 22px;
     color: white;
+    padding: 5px;
 }
 
 .info{
@@ -37,7 +41,17 @@ footer a{
     gap: 20px;
 }
 
-.contentLinks{
+.phone, .mail, .instagram, .linkedin{
     display: flex;
-    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.contact, .socialMedia{
+    margin-top: 102px;
+}
+
+footer .container{
+    margin-left: 20px;
 }
