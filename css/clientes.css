@@ -48,3 +48,26 @@
 .carousel-indicators {
   margin-bottom: 0px !important;
 }
+
+@media (max-width: 576px) {
+  .clientes {
+    margin-top: 50px;
+  }
+
+  .clientes h2 {
+    font-size: 35px;
+    padding-bottom: 50px;
+  }
+
+  .img-cliente {
+    width: 80px;
+  }
+
+  .clientes span {
+    font-size: 16px;
+  }
+
+  .clientes p {
+    max-width: 240px;
+  }
+}
