@@ -1,14 +1,13 @@
-footer{
-    margin-top: 200px;
-    background-color: #3D3D45;
-    padding: 80px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 130px;
-
+footer {
+  margin-top: 200px;
+  background-color: #3d3d45;
+  padding: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 130px;
 }
 
-footer p{
+footer p {
   font-family: "Montserrat", monospace;
   font-size: 16px;
   font-weight: 400;
@@ -16,42 +15,60 @@ footer p{
   color: white;
 }
 
-footer h2{
-    font-family: "Montserrat", monospace;
-    font-size: 24px;
-    font-weight: 800;
-    line-height: 22px;
-    color: white;
+footer h2 {
+  font-family: "Montserrat", monospace;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 22px;
+  color: white;
 
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
-footer a{
-    font-family: "Montserrat", monospace;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 22px;
-    color: white;
-    padding: 5px;
+footer a {
+  font-family: "Montserrat", monospace;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22px;
+  color: white;
+  padding: 5px;
 }
 
-.info{
-    display: flex;
-    flex-direction: column;
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.phone,
+.mail,
+.instagram,
+.linkedin {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.contact,
+.socialMedia {
+  margin-top: 100px;
+}
+
+@media (max-width: 576px) {
+  footer {
+    grid-template-columns: 1fr;
     gap: 20px;
-}
+    margin-top: 100px;
+    padding-top: 40px;
+  }
 
-.phone, .mail, .instagram, .linkedin{
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    margin-bottom: 25px;
-}
+  footer p {
+    text-align: center;
+  }
 
-.contact, .socialMedia{
-    margin-top: 102px;
-}
-
-footer .container{
-    margin-left: 20px;
+  .contact,
+  .socialMedia {
+    margin-top: 30px;
+  }
 }
