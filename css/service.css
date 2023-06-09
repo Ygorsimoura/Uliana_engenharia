@@ -26,7 +26,7 @@
 .cards-servicos {
   display: flex;
   flex-wrap: nowrap;
-  gap: 29px;
+  gap: 30px;
 }
 
 .cards-servicos h3 {
@@ -64,4 +64,42 @@
   background: #e09d00;
 
   margin-top: 70px;
+}
+
+@media (max-width: 576px) {
+  .service {
+    margin-top: 550px;
+  }
+
+  .service h2 {
+    font-size: 26px;
+    padding-bottom: 50px;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .cards-servicos {
+    gap: 15px;
+  }
+
+  .cards-servicos h3 {
+    padding-bottom: 0px;
+  }
+
+  .cards-servicos p {
+    max-width: 350px;
+  }
+
+  .cta-service {
+    grid-row: 3;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .cta-service a {
+    font-size: 16px;
+    margin: 40px 150px;
+  }
 }
