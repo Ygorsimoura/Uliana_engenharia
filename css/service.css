@@ -62,8 +62,11 @@
   border-radius: 4px;
   color: #fff;
   background: #e09d00;
-
   margin-top: 70px;
+}
+
+.cta-service a:hover {
+  background: #e08d00;
 }
 
 @media (max-width: 576px) {

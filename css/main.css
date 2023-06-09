@@ -41,6 +41,10 @@
   color: #ffffff;
 }
 
+.main-texts a:hover {
+  background: #e08d00;
+}
+
 .main-imgs img {
   width: 100%;
   height: 100%;

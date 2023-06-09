@@ -42,6 +42,10 @@
   background: #e09d00;
 }
 
+.contato-infos a:hover {
+  background: #e08d00;
+}
+
 @media (max-width: 576px) {
   .contato {
     margin-top: 100px;
