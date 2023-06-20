@@ -44,3 +44,27 @@ a {
   opacity: 1;
   transform: translate3d(0, 0, 0);
 }
+
+
+.whatsapp-btn{
+  position: fixed;
+  bottom: 70px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  background-image: url(/assets/whatsapp-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  border-radius: 50%;
+  z-index: 9999;
+
+  cursor: pointer;
+  transition: transform 0.3s;
+ 
+  
+}
+
+.whatsapp-btn:hover{
+  transform: scale(1.2);
+}
