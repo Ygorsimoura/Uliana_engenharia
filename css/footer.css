@@ -45,6 +45,7 @@ footer a {
 .instagram,
 .linkedin {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   gap: 15px;
   margin-bottom: 25px;
@@ -70,5 +71,24 @@ footer a {
   .contact,
   .socialMedia {
     margin-top: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  footer p {
+    text-align: center;
+  }
+  .contact h2,
+  .socialMedia h2 {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .phone,
+  .mail,
+  .instagram,
+  .linkedin {
+    flex-direction: column;
+    text-align: center;
   }
 }

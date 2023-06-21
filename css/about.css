@@ -91,7 +91,8 @@
   }
 
   .infos {
-    position: initial;
+    width: max-content;
+    position: unset;
     display: block;
   }
 
@@ -103,5 +104,20 @@
 
   .infos-list h3 {
     padding-top: 50px;
+  }
+}
+
+@media (max-width: 400px) {
+  .infos {
+    padding: 0px;
+  }
+  .description-about p {
+    text-align: center;
+  }
+  .about-content {
+    grid-template-columns: 1fr;
+  }
+  .about-content img {
+    display: none;
   }
 }
