@@ -84,6 +84,9 @@
   }
 
   .cards-servicos {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
     gap: 15px;
   }
 
@@ -92,7 +95,7 @@
   }
 
   .cards-servicos p {
-    max-width: 350px;
+    max-width: 430px;
   }
 
   .cta-service {
@@ -103,25 +106,11 @@
 
   .cta-service a {
     font-size: 16px;
-    margin: 40px 150px;
+    margin: 0px;
   }
-}
 
-@media (max-width: 400px) {
-  .cards-servicos {
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-  }
   .servicos1 {
     margin-bottom: 40px;
-  }
-
-  .cta-service p {
-    max-width: 430px;
-  }
-  .cta-service a {
-    margin: 0px;
   }
   .cards {
     gap: 40px;

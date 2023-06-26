@@ -67,7 +67,7 @@
   }
 
   .about-content {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     align-items: center;
     gap: 50px;
   }
@@ -80,20 +80,19 @@
     line-height: 32px;
     padding-bottom: 25px;
   }
-  .about-content img {
-    width: 500px;
-    margin-top: 40px;
-  }
 
   .description-about p {
     font-size: 15px;
     line-height: 24px;
+    text-align: center;
   }
 
   .infos {
     width: max-content;
     position: unset;
     display: block;
+    padding: 0px;
+    margin: 0 auto;
   }
 
   .infos-list {
@@ -104,18 +103,6 @@
 
   .infos-list h3 {
     padding-top: 50px;
-  }
-}
-
-@media (max-width: 400px) {
-  .infos {
-    padding: 0px;
-  }
-  .description-about p {
-    text-align: center;
-  }
-  .about-content {
-    grid-template-columns: 1fr;
   }
   .about-content img {
     display: none;
