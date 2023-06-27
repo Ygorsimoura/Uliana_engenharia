@@ -1,6 +1,9 @@
 .footer {
   margin-top: 200px;
   background-color: #3d3d45;
+}
+
+.footer-conteudo {
   padding: 80px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -62,9 +65,17 @@
     grid-template-columns: 1fr;
     gap: 20px;
     padding: 25px;
+    justify-content: center;
+  }
+  .footer-conteudo {
+    max-width: 300px;
+    margin: 0 auto;
   }
   .footer p {
     text-align: center;
+  }
+  .footer a {
+    font-size: 16px;
   }
   .contact,
   .socialMedia {
@@ -81,5 +92,10 @@
   .linkedin {
     flex-direction: column;
     text-align: center;
+  }
+  .info img {
+    width: 300px;
+    gap: 10px;
+    align-items: center;
   }
 }

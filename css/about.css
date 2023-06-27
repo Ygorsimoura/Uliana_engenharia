@@ -94,10 +94,14 @@
     margin: 0 auto;
   }
 
+  .info-box {
+    display: block;
+    max-width: 250px;
+    margin: 0 auto;
+  }
   .infos-list {
     display: block;
-    width: 300px;
-    margin-bottom: 50px;
+    width: 250px;
   }
 
   .infos-list h3 {

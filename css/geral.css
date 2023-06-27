@@ -1,3 +1,7 @@
+body {
+  position: relative;
+}
+
 * {
   box-sizing: border-box;
   margin: 0px;
@@ -48,12 +52,6 @@ a {
 .js [data-anime="scroll"].ativo {
   opacity: 1;
   transform: translate3d(0, 0, 0);
-}
-
-@media (max-width: 400px) {
-  body {
-    width: 500px;
-  }
 }
 
 .whatsapp-btn {
