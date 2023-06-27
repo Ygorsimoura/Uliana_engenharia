@@ -88,16 +88,15 @@
   }
 
   .infos {
-    width: max-content;
-    position: unset;
-    display: block;
+    width: 300px;
+    position: initial;
     padding: 0px;
     margin: 0 auto;
   }
 
   .infos-list {
     display: block;
-    width: 400px;
+    width: 300px;
     margin-bottom: 50px;
   }
 

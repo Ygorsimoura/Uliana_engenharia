@@ -69,7 +69,7 @@
   background: #e08d00;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 600px) {
   .service {
     margin-top: 550px;
   }
@@ -95,7 +95,7 @@
   }
 
   .cards-servicos p {
-    max-width: 430px;
+    max-width: 300px;
   }
 
   .cta-service {
